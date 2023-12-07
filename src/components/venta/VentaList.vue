@@ -67,8 +67,8 @@ onMounted(() => {
             <th scope="row">{{ index + 1 }}</th>
             <td>{{ venta.transaccion }}</td>
             <td>{{ format(new Date(venta.fecha), "dd/MM/yyyy") }}</td>
-            <td>{{ venta.usuario.usuario }}</td>
-            <td>{{ venta.cliente.nombre }}</td>
+            <td>{{ venta.idUsuario }}</td>
+            <td>{{ venta.idCliente }}</td>
 
             <!-- (venta.usuario as any).usuario -->
             

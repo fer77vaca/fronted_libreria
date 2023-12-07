@@ -33,7 +33,7 @@ const cantidad = ref('')
 const precioUnitario = ref('')
 const idVenta = ref('')
 const idProducto = ref('')
-const total = computed(() => cantidad.value * precioUnitario.value)
+const total = computed(() => Number(cantidad.value) * Number(precioUnitario.value))
 
 async function crearDetalle() {
   await http

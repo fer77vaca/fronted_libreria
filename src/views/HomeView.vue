@@ -61,7 +61,7 @@
         </div>
 
         <div class="video-wrap">
-            <video autoplay="" loop="" muted="" class="custom-video" poster="">
+            <video autoplay="true" loop="true" muted="true" class="custom-video" poster="">
                 <source src="@/assets/video/lapices.mp4" type="video/mp4">
             </video>
         </div>
